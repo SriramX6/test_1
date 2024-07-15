@@ -55,7 +55,7 @@ app.use(cors())
 
 // "mongodb://the-database:27017/bike"
 
-const uri = 'mongodb+srv://host:strongpassword@bharatbike.yb9eewp.mongodb.net/?retryWrites=true&w=majority&appName=bharatbike'
+const uri = 'mongodb+srv://host:strongpassword@bharatbike.yb9eewp.mongodb.net/bike_production?retryWrites=true&w=majority&appName=bharatbike'
 const ac = () => { 
     try{mongoose.connect(uri)
     console.log("connected to mongodb")        
