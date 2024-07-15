@@ -54,7 +54,7 @@ app.use(cors())
 // app.use(express.urlencoded({limit: '25mb'}));
 
 // "mongodb://the-database:27017/bike"
-
+const dbName = 'bike_production';
 const uri = 'mongodb+srv://host:strongpassword@bharatbike.yb9eewp.mongodb.net/bike_production?retryWrites=true&w=majority&appName=bharatbike'
 const ac = () => { 
     try{mongoose.connect(uri)
