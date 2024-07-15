@@ -202,8 +202,7 @@ catch(err){
 app.use(express.json());
 // /budgetModel
 // app.post
-const url = "mongodb://localhost:27017"
-const dbName= "bike"
+
 
 //  //
 app.post('/budgetModel' , async (req, res)=>{
